@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background: url(../../img/loggi.jpg) no-repeat center top;
+    background-size: cover;
+    height: 100vh;
+}
+header{
+    border-bottom: 2px solid #eee;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    font-size: 40px;
+    font-family: 'Archivo', sans-serif;
+
+}
+.logincaj{
+    width: 320px;
+    height: 420px;
+    background: rgba(97, 97, 97, 0.513);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    border-radius: 15px;
+}
+.logincaj input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.logincaj h1 {
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.693), 0 0 15px rgba(255, 255, 255, 0.603), 0 0 30px rgba(255, 255, 255, 0.676), 0 0 50px rgba(255, 255, 255, 0.611);
+
+}
+#enlace{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    text-shadow: 0 0 5px #3c9bd9, 0 0 15px #3c9bd9, 0 0 30px #3c9bd9, 0 0 50px #3c9bd9;
+    color: rgb(255, 255, 255);
+}
+#line-text{
+    padding: 30px 0 0;
+}
+.logincaj input[type="text"], .logincaj input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.logincaj input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b5e5ed;
+    color: #355b62;
+    font-size: 18px;
+    border-radius: 15px;
+}
+.logincaj input[type="submit"]:hover {
+    cursor: pointer;
+    background: #064752;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.693), 0 0 15px rgba(255, 255, 255, 0.603), 0 0 30px rgba(255, 255, 255, 0.676), 0 0 50px rgba(255, 255, 255, 0.611);
+
+}
