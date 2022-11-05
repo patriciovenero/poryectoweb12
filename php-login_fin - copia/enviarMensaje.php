@@ -25,7 +25,7 @@ $datausuario = $sentencia->fetch(PDO::FETCH_OBJ);
                 "message" => [[
                     "time" => '1654728819',
                     "type" => 'text',
-                    "value" => 'Estimado(a) *'.strtoupper($datausuario->Nombres).' '.strtoupper($datausuario->Apellidos).'Le informamos que ya salieron sus resultados el cual es el siguiente: '.strtoupper($datausuario->Resultados)
+                    "value" => 'Estimado(a) *'.strtoupper($datausuario->Nombres).' '.strtoupper($datausuario->Apellidos).'Le informamos que ya salieron sus resultados el cual es el siguiente: '
                 ]]
             ]
         ]
